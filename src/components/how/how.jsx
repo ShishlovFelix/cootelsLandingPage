@@ -97,7 +97,7 @@ const How = () => {
             filter: "drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07))",
           }}
         >
-          <Accordion sx={{ marginTop: "80px" }}>
+          <Accordion sx={{ marginTop: "80px" }} elevation={0}>
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
@@ -139,7 +139,7 @@ const How = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ marginTop: "24px" }}>
+          <Accordion sx={{ marginTop: "24px" }} elevation={0}>
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
@@ -181,7 +181,7 @@ const How = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ marginTop: "24px" }}>
+          <Accordion sx={{ marginTop: "24px" }} elevation={0}>
             <AccordionSummary
               expandIcon={
                 <ExpandMoreIcon
