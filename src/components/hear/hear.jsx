@@ -8,9 +8,13 @@ import Typography from "@mui/material/Typography";
 
 const Hear = () => {
   return (
-    <Container maxWidth="lg" sx={{ display: "block", height: "627px" }}>
+    <Container maxWidth="xl" sx={{ display: "block", height: "627px" }}>
       <Carousel showStatus={false} showThumbs={false} showArrows={true}>
-        <div>
+        <div
+          style={{
+            border: "solid 2px #848FAC",
+          }}
+        >
           <Typography
             sx={{
               marginTop: "80px",
@@ -58,7 +62,11 @@ const Hear = () => {
           </Typography>
         </div>
 
-        <div>
+        <div
+          style={{
+            border: "solid 2px #848FAC",
+          }}
+        >
           <Typography
             sx={{
               marginTop: "80px",
@@ -105,7 +113,11 @@ const Hear = () => {
             Kirana Dunham
           </Typography>
         </div>
-        <div>
+        <div
+          style={{
+            border: "solid 2px #848FAC",
+          }}
+        >
           <Typography
             sx={{
               marginTop: "80px",
@@ -152,7 +164,11 @@ const Hear = () => {
             Kirana Dunham
           </Typography>
         </div>
-        <div>
+        <div
+          style={{
+            border: "solid 2px #848FAC",
+          }}
+        >
           <Typography
             sx={{
               marginTop: "80px",
@@ -199,7 +215,11 @@ const Hear = () => {
             Kirana Dunham
           </Typography>
         </div>
-        <div>
+        <div
+          style={{
+            border: "solid 2px #848FAC",
+          }}
+        >
           <Typography
             sx={{
               marginTop: "80px",

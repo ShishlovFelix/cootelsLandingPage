@@ -2,6 +2,9 @@ import React from "react";
 import { Grid } from "@mui/material";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import picture1 from "../../pictures/twitter.svg";
+import picture2 from "../../pictures/instagram-logo.svg";
+import picture3 from "../../pictures/facebook.svg";
 
 const Footer = () => {
   return (
@@ -95,6 +98,48 @@ const Footer = () => {
               </a>
             </Typography>
           </Grid>
+          <Grid
+            item
+            xs={4}
+            sx={{
+              display: "flex",
+              margin: "39px auto auto 120px",
+            }}
+          >
+            <Typography sx={{ marginRight: "24px" }}>
+              <a
+                href=""
+                style={{
+                  color: "#FFFFFF",
+                  textDecoration: "none",
+                }}
+              >
+                <img src={picture1} alt="no picture" />
+              </a>
+            </Typography>
+            <Typography sx={{ marginRight: "24px" }}>
+              <a
+                href=""
+                style={{
+                  color: "#FFFFFF",
+                  textDecoration: "none",
+                }}
+              >
+                <img src={picture2} alt="no picture" />
+              </a>
+            </Typography>
+            <Typography>
+              <a
+                href=""
+                style={{
+                  color: "#FFFFFF",
+                  textDecoration: "none",
+                }}
+              >
+                <img src={picture3} alt="no picture" />
+              </a>
+            </Typography>
+          </Grid>
         </Grid>
         <Grid item xs={6} sx={{ display: "flex", marginTop: "120px" }}>
           <Grid xs={4} sx={{ display: "block" }}>
@@ -113,50 +158,78 @@ const Footer = () => {
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Single Room
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Single Room
+              </a>
             </Typography>
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Double Room
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Double Room
+              </a>
             </Typography>
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Cabin
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Cabin
+              </a>
             </Typography>
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Custom Room
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Custom Room
+              </a>
             </Typography>
           </Grid>
           <Grid xs={5} sx={{ display: "block" }}>
@@ -175,26 +248,40 @@ const Footer = () => {
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              See the Steps
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                See the Steps
+              </a>
             </Typography>
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Best Time
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Best Time
+              </a>
             </Typography>
           </Grid>
           <Grid xs={3} sx={{ display: "block" }}>
@@ -213,38 +300,59 @@ const Footer = () => {
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Our Number
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Our Number
+              </a>
             </Typography>
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Our Email
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Our Email
+              </a>
             </Typography>
             <Typography
               sx={{
                 marginTop: "24px",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "16px",
-                lineHeight: "19px",
-                color: "#D9DBDE",
               }}
             >
-              Our Location
+              <a
+                href=""
+                style={{
+                  color: "#D9DBDE",
+                  fontFamily: "Inter",
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  lineHeight: "19px",
+                  textDecoration: "none",
+                }}
+              >
+                Our Location
+              </a>
             </Typography>
           </Grid>
         </Grid>
