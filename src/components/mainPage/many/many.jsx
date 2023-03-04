@@ -3,9 +3,10 @@ import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import picture1 from "../../pictures/manyPicture1.jpg";
-import picture2 from "../../pictures/manyPicture2.jpg";
-import picture3 from "../../pictures/manyPicture3.jpg";
+import picture1 from "../../../pictures/manyPicture1.jpg";
+import picture2 from "../../../pictures/manyPicture2.jpg";
+import picture3 from "../../../pictures/manyPicture3.jpg";
+import { Link } from "react-router-dom";
 
 const Many = () => {
   return (
@@ -46,16 +47,23 @@ const Many = () => {
             style={{
               marginTop: "32px",
               backgroundColor: "#0E1734",
-              color: "#FFFFFF",
-              fontFamily: "Inter",
-              fontSize: "16px",
               lineHeight: "19px",
               width: "165px",
               height: "51px",
               borderRadius: "4px",
             }}
           >
-            Explore more
+            <Link
+              to="/rooms"
+              style={{
+                textDecoration: "none",
+                color: "#FFFFFF",
+                fontFamily: "Inter",
+                fontSize: "16px",
+              }}
+            >
+              Reservation
+            </Link>
           </button>
         </Grid>
         <Grid
@@ -95,19 +103,19 @@ const Many = () => {
               time, but you still have a chance to meet others.
             </Typography>
             <Typography sx={{ display: "flex", alignItems: "end" }}>
-              <a
+              <Link
+                to="/rooms"
                 style={{
                   margin: "32px 13px 0px 0px",
+                  textDecoration: "none",
                   color: "#424F7B",
                   fontFamily: "Inter",
-                  fontWeight: 400,
                   fontSize: "18px",
                   lineHeight: "150%",
-                  border: "0",
                 }}
               >
                 Learn more
-              </a>
+              </Link>
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Typography>
           </Grid>
@@ -139,19 +147,19 @@ const Many = () => {
               disturbed. Feel the whole world just for you two
             </Typography>
             <Typography sx={{ display: "flex", alignItems: "end" }}>
-              <a
+              <Link
+                to="/rooms"
                 style={{
                   margin: "32px 13px 0px 0px",
+                  textDecoration: "none",
                   color: "#424F7B",
                   fontFamily: "Inter",
-                  fontWeight: 400,
                   fontSize: "18px",
                   lineHeight: "150%",
-                  border: "0",
                 }}
               >
                 Learn more
-              </a>
+              </Link>
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Typography>
           </Grid>
@@ -183,19 +191,19 @@ const Many = () => {
               stronger bond with your family or friends
             </Typography>
             <Typography sx={{ display: "flex", alignItems: "end" }}>
-              <a
+              <Link
+                to="/rooms"
                 style={{
                   margin: "32px 13px 0px 0px",
+                  textDecoration: "none",
                   color: "#424F7B",
                   fontFamily: "Inter",
-                  fontWeight: 400,
                   fontSize: "18px",
                   lineHeight: "150%",
-                  border: "0",
                 }}
               >
                 Learn more
-              </a>
+              </Link>
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Typography>
           </Grid>

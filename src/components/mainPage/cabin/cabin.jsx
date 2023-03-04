@@ -2,8 +2,8 @@ import React from "react";
 import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import picture1 from "../../pictures/cabinPicture1.jpg";
-import picture2 from "../../pictures/cabinPicture2.jpg";
+import picture1 from "../../../pictures/cabinPicture1.jpg";
+import picture2 from "../../../pictures/cabinPicture2.jpg";
 
 const Cabin = () => {
   return (

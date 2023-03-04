@@ -2,9 +2,9 @@ import React from "react";
 import { Grid } from "@mui/material";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import picture1 from "../../pictures/twitter.svg";
-import picture2 from "../../pictures/instagram-logo.svg";
-import picture3 from "../../pictures/facebook.svg";
+import picture1 from "../../../pictures/twitter.svg";
+import picture2 from "../../../pictures/instagram-logo.svg";
+import picture3 from "../../../pictures/facebook.svg";
 
 const Footer = () => {
   return (

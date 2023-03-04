@@ -6,6 +6,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link } from "react-router-dom";
 
 const How = () => {
   return (
@@ -62,7 +63,6 @@ const How = () => {
             <button
               style={{
                 backgroundColor: "#0E1734",
-                color: "#FFFFFF",
                 fontFamily: "Inter",
                 fontSize: "16px",
                 fontWeight: 500,
@@ -72,21 +72,33 @@ const How = () => {
                 borderRadius: "4px",
               }}
             >
-              Contact us
+              <Link
+                to="/contacs"
+                style={{
+                  margin: "32px 13px 0px 0px",
+                  textDecoration: "none",
+                  color: "#FFFFFF",
+                  fontFamily: "Inter",
+                  fontSize: "16px",
+                  fontWeight: 500,
+                }}
+              >
+                Contact us
+              </Link>
             </button>
-            <a
+            <Link
+              to="/rooms"
               style={{
                 margin: "0px 0px 0px 24px",
+                textDecoration: "none",
                 color: "#424F7B",
                 fontFamily: "Inter",
-                fontWeight: 400,
                 fontSize: "18px",
                 lineHeight: "150%",
-                border: "0",
               }}
             >
               Explore more room
-            </a>
+            </Link>
           </Typography>
         </Grid>
         <Grid

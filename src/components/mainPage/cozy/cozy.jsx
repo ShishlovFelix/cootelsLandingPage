@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
-import picture from "../../pictures/cozyPicture.jpg";
+import picture from "../../../pictures/cozyPicture.jpg";
 import Typography from "@mui/material/Typography";
 
 const Cozy = () => {

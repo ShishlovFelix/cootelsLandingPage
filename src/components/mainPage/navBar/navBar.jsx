@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import { Grid } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -45,29 +46,63 @@ const NavBar = () => {
               <Typography
                 textAlign="center"
                 sx={{
-                  color: "#192252",
-                  fontFamily: "Inter",
-                  fontSize: "16px",
                   lineHeight: "19px",
                 }}
               >
-                Rooms
+                <Link
+                  to="/rooms"
+                  style={{
+                    textDecoration: "none",
+                    color: "#192252",
+                    fontFamily: "Inter",
+                    fontSize: "16px",
+                    lineHeight: "19px",
+                  }}
+                >
+                  <span>Rooms</span>
+                </Link>
               </Typography>
             </MenuItem>
             <MenuItem>
               <Typography
                 textAlign="center"
-                sx={{ color: "#192252", fontFamily: "Inter" }}
+                sx={{
+                  lineHeight: "19px",
+                }}
               >
-                Reservation
+                <Link
+                  to="/reservation"
+                  style={{
+                    textDecoration: "none",
+                    color: "#192252",
+                    fontFamily: "Inter",
+                    fontSize: "16px",
+                    lineHeight: "19px",
+                  }}
+                >
+                  <span>Reservation</span>
+                </Link>
               </Typography>
             </MenuItem>
             <MenuItem>
               <Typography
                 textAlign="center"
-                sx={{ color: "#192252", fontFamily: "Inter" }}
+                sx={{
+                  lineHeight: "19px",
+                }}
               >
-                Contacs
+                <Link
+                  to="/contacs"
+                  style={{
+                    textDecoration: "none",
+                    color: "#192252",
+                    fontFamily: "Inter",
+                    fontSize: "16px",
+                    lineHeight: "19px",
+                  }}
+                >
+                  <span>Contacs</span>
+                </Link>
               </Typography>
             </MenuItem>
           </Grid>
