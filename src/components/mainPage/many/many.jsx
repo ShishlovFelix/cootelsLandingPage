@@ -68,14 +68,15 @@ const Many = () => {
         </Grid>
         <Grid
           container
-          xs={12}
+          spacing="24px"
           sx={{
-            display: "flex",
             marginTop: "88px",
-            justifyContent: "space-between",
+            "& img": {
+              width: "100%",
+            },
           }}
         >
-          <Grid item xs={3} sx={{ display: "block" }}>
+          <Grid item xs={4}>
             <img src={picture1} alt="no picture" />
             <Typography
               sx={{
@@ -119,7 +120,7 @@ const Many = () => {
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Typography>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={4}>
             <img src={picture2} alt="no picture" />
             <Typography
               sx={{
@@ -163,7 +164,7 @@ const Many = () => {
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Typography>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={4}>
             <img src={picture3} alt="no picture" />
             <Typography
               sx={{
