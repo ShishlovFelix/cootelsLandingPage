@@ -13,7 +13,12 @@ const Nature = () => {
       maxWidth="lg"
       sx={{ display: "flex", justifyContent: "space-between", height: "845px" }}
     >
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+      <Grid
+        container
+        rowSpacing={1}
+        columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        sx={{ display: { xs: "none", md: "flex" } }}
+      >
         <Grid item xs={6} sx={{ display: "block" }}>
           <Typography
             sx={{
@@ -71,6 +76,99 @@ const Nature = () => {
           sx={{
             display: "flex",
             justifyContent: "space-around",
+          }}
+        >
+          <Grid
+            xs={2}
+            sx={{
+              margin: "80px 24px 0px 0px",
+            }}
+          >
+            <img src={picture1} alt="no picture" />
+          </Grid>
+          <Grid
+            item
+            xs={2}
+            sx={{
+              margin: "161px 24px 0px 0px",
+            }}
+          >
+            <img src={picture2} alt="no picture" />
+          </Grid>
+          <Grid
+            item
+            xs={2}
+            sx={{
+              marginTop: "80px",
+            }}
+          >
+            <img src={picture3} alt="no picture" />
+          </Grid>
+        </Grid>
+      </Grid>
+      <Grid
+        container
+        rowSpacing={1}
+        columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        sx={{ display: { xs: "block", md: "none" } }}
+      >
+        <Grid item xs={12} sx={{ display: "block", textAlign: "center" }}>
+          <Typography
+            sx={{
+              marginTop: "215px",
+              fontFamily: "Montserrat",
+              fontWeight: 600,
+              fontSize: "48px",
+              lineHeight: "150%",
+              letterSpacing: "-0.01em",
+              color: "#192252",
+            }}
+          >
+            Nature, Warmth, and Beauty in One Space
+          </Typography>
+          <Typography
+            sx={{
+              marginTop: "24px",
+              fontFamily: "Inter",
+              fontWeight: 400,
+              fontSize: "18px",
+              lineHeight: "150%",
+              color: "#848FAC",
+            }}
+          >
+            One place to release all the stress, bring back happines, and get
+            back to nature. We provide the best room and nature for you. Come
+            visit us anytime you want.
+          </Typography>
+          <button
+            style={{
+              marginTop: "32px",
+              backgroundColor: "#0E1734",
+              lineHeight: "19px",
+              width: "156px",
+              height: "51px",
+              borderRadius: "4px",
+            }}
+          >
+            <Link
+              to="/reservation"
+              style={{
+                textDecoration: "none",
+                color: "#FFFFFF",
+                fontFamily: "Inter",
+                fontSize: "16px",
+              }}
+            >
+              <span>Reservation</span>
+            </Link>
+          </button>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sx={{
+            display: "flex",
+            justifyContent: "space-evenly",
           }}
         >
           <Grid

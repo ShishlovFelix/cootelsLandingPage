@@ -8,266 +8,538 @@ import Typography from "@mui/material/Typography";
 
 const Hear = () => {
   return (
-    <Container maxWidth="xl" sx={{ display: "block", height: "627px" }}>
-      <Carousel showStatus={false} showThumbs={false} showArrows={true}>
-        <div
-          style={{
-            border: "solid 2px #848FAC",
-          }}
-        >
-          <Typography
-            sx={{
-              marginTop: "80px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "36px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
+    <>
+      <Container
+        maxWidth="xl"
+        sx={{ display: { xs: "none", md: "block" }, height: "627px" }}
+      >
+        <Carousel showStatus={false} showThumbs={false} showArrows={true}>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            Hear From Our Happy Customers
-          </Typography>
-          <Avatar
-            alt="avatar"
-            src={picture}
-            sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
-          />
-          <Typography
-            sx={{
-              marginTop: "44px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
-            “Great service, great food, great people. The scenery is also
-            beautiful, you can do so much activity even with your famility.
-            Worth every penny! you should come and see for your self. 5 out of
-            5! the waffle is great!”
-          </Typography>
-          <Typography
-            sx={{
-              margin: "40px 0px 116px 0px",
-              fontFamily: "Inter",
-              fontWeight: 500,
-              fontSize: "20px",
-              lineHeight: "150%",
-              color: "#192252",
-            }}
-          >
-            Kirana Dunham
-          </Typography>
-        </div>
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
 
-        <div
-          style={{
-            border: "solid 2px #848FAC",
-          }}
-        >
-          <Typography
-            sx={{
-              marginTop: "80px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "36px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            Hear From Our Happy Customers
-          </Typography>
-          <Avatar
-            alt="avatar"
-            src={picture}
-            sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
-          />
-          <Typography
-            sx={{
-              marginTop: "44px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            “Great service, great food, great people. The scenery is also
-            beautiful, you can do so much activity even with your famility.
-            Worth every penny! you should come and see for your self. 5 out of
-            5! the waffle is great!”
-          </Typography>
-          <Typography
-            sx={{
-              margin: "40px 0px 116px 0px",
-              fontFamily: "Inter",
-              fontWeight: 500,
-              fontSize: "20px",
-              lineHeight: "150%",
-              color: "#192252",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            Kirana Dunham
-          </Typography>
-        </div>
-        <div
-          style={{
-            border: "solid 2px #848FAC",
-          }}
-        >
-          <Typography
-            sx={{
-              marginTop: "80px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "36px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            Hear From Our Happy Customers
-          </Typography>
-          <Avatar
-            alt="avatar"
-            src={picture}
-            sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
-          />
-          <Typography
-            sx={{
-              marginTop: "44px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+        </Carousel>
+      </Container>
+      <Container
+        maxWidth="xl"
+        sx={{
+          display: { xs: "block", md: "none" },
+          height: "627px",
+          marginTop: "170px",
+        }}
+      >
+        <Carousel showStatus={false} showThumbs={false} showArrows={true}>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            “Great service, great food, great people. The scenery is also
-            beautiful, you can do so much activity even with your famility.
-            Worth every penny! you should come and see for your self. 5 out of
-            5! the waffle is great!”
-          </Typography>
-          <Typography
-            sx={{
-              margin: "40px 0px 116px 0px",
-              fontFamily: "Inter",
-              fontWeight: 500,
-              fontSize: "20px",
-              lineHeight: "150%",
-              color: "#192252",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            Kirana Dunham
-          </Typography>
-        </div>
-        <div
-          style={{
-            border: "solid 2px #848FAC",
-          }}
-        >
-          <Typography
-            sx={{
-              marginTop: "80px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "36px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            Hear From Our Happy Customers
-          </Typography>
-          <Avatar
-            alt="avatar"
-            src={picture}
-            sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
-          />
-          <Typography
-            sx={{
-              marginTop: "44px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            “Great service, great food, great people. The scenery is also
-            beautiful, you can do so much activity even with your famility.
-            Worth every penny! you should come and see for your self. 5 out of
-            5! the waffle is great!”
-          </Typography>
-          <Typography
-            sx={{
-              margin: "40px 0px 116px 0px",
-              fontFamily: "Inter",
-              fontWeight: 500,
-              fontSize: "20px",
-              lineHeight: "150%",
-              color: "#192252",
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+          <div
+            style={{
+              border: "solid 2px #848FAC",
             }}
           >
-            Kirana Dunham
-          </Typography>
-        </div>
-        <div
-          style={{
-            border: "solid 2px #848FAC",
-          }}
-        >
-          <Typography
-            sx={{
-              marginTop: "80px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "36px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
-            }}
-          >
-            Hear From Our Happy Customers
-          </Typography>
-          <Avatar
-            alt="avatar"
-            src={picture}
-            sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
-          />
-          <Typography
-            sx={{
-              marginTop: "44px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
-            “Great service, great food, great people. The scenery is also
-            beautiful, you can do so much activity even with your famility.
-            Worth every penny! you should come and see for your self. 5 out of
-            5! the waffle is great!”
-          </Typography>
-          <Typography
-            sx={{
-              margin: "40px 0px 116px 0px",
-              fontFamily: "Inter",
-              fontWeight: 500,
-              fontSize: "20px",
-              lineHeight: "150%",
-              color: "#192252",
-            }}
-          >
-            Kirana Dunham
-          </Typography>
-        </div>
-      </Carousel>
-    </Container>
+            <Typography
+              sx={{
+                marginTop: "80px",
+                fontFamily: "Montserrat",
+                fontWeight: 600,
+                fontSize: "36px",
+                lineHeight: "150%",
+                letterSpacing: "-0.01em",
+                color: "#192252",
+              }}
+            >
+              Hear From Our Happy Customers
+            </Typography>
+            <Avatar
+              alt="avatar"
+              src={picture}
+              sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}
+            />
+            <Typography
+              sx={{
+                marginTop: "44px",
+                fontFamily: "Inter",
+                fontWeight: 400,
+                fontSize: "18px",
+                lineHeight: "150%",
+                color: "#848FAC",
+              }}
+            >
+              “Great service, great food, great people. The scenery is also
+              beautiful, you can do so much activity even with your famility.
+              Worth every penny! you should come and see for your self. 5 out of
+              5! the waffle is great!”
+            </Typography>
+            <Typography
+              sx={{
+                margin: "40px 0px 116px 0px",
+                fontFamily: "Inter",
+                fontWeight: 500,
+                fontSize: "20px",
+                lineHeight: "150%",
+                color: "#192252",
+              }}
+            >
+              Kirana Dunham
+            </Typography>
+          </div>
+        </Carousel>
+      </Container>
+    </>
   );
 };
 
