@@ -26,7 +26,7 @@ const How = () => {
               display: "flex",
               alignItems: "end",
               marginTop: { xs: "20px", md: "162px" },
-              justifyContent: "center",
+              justifyContent: { xs: "center", md: "start" },
             }}
           >
             <a
@@ -72,7 +72,7 @@ const How = () => {
               display: "flex",
               alignItems: "center",
               marginTop: "32px",
-              justifyContent: "space-evenly",
+              justifyContent: { xs: "space-evenly", md: "start" },
             }}
           >
             <button
