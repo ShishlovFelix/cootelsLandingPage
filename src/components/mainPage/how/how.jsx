@@ -1,128 +1,59 @@
 import React from "react";
-import { Grid } from "@mui/material";
-import Typography from "@mui/material/Typography";
+import { Grid, Stack } from "@mui/material";
+
 import Container from "@mui/material/Container";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Link } from "react-router-dom";
+
+import {
+  CardLink,
+  HowParagraph,
+  HowTitle,
+  MainLink,
+  MainParagraph,
+} from "../../../layoutStylesComponents/BaseComponents";
 
 const How = () => {
   return (
     <Container
       maxWidth="lg"
-      sx={{ display: "flex", justifyContent: "space-between", height: "596px" }}
+      // sx={{ display: "flex", justifyContent: "space-between", height: "596px" }}
     >
-      <Grid container sx={{ display: { xs: "block", md: "flex" } }}>
-        <Grid
+      <Grid container flexDirection="row" alignItems="center">
+        <Stack
+          flexDirection="column"
           item
-          xs={12}
-          md={6}
-          sx={{ display: "block", textAlign: { xs: "center", md: "start" } }}
+          gap="16px"
+          sx={{
+            width: { xs: "100%", md: "50%" },
+            textAlign: { xs: "center", md: "start" },
+          }}
         >
-          <Typography
-            sx={{
-              display: "flex",
-              alignItems: "end",
-              marginTop: { xs: "20px", md: "162px" },
-              justifyContent: { xs: "center", md: "start" },
-            }}
-          >
-            <a
-              style={{
-                color: "#424F7B",
-                fontFamily: "Inter",
-                fontWeight: 400,
-                fontSize: "18px",
-                lineHeight: "150%",
-                border: "0",
-              }}
-            >
-              Start your journey!
-            </a>
-          </Typography>
-          <Typography
-            sx={{
-              marginTop: "12px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "36px",
-              lineHeight: "150%",
-              color: "#192252",
-            }}
-          >
-            How to Get My Room?
-          </Typography>
-          <Typography
-            sx={{
-              marginTop: "24px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
+          <CardLink to="/contacs">Start your journey!</CardLink>
+          <HowTitle>How to Get My Room?</HowTitle>
+          <MainParagraph>
             You can contact us by phone or email us. Easily tap the contact
             button below and it will take you to our contact point
-          </Typography>
-          <Typography
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              marginTop: "32px",
-              justifyContent: { xs: "space-evenly", md: "start" },
-            }}
+          </MainParagraph>
+          <Stack
+            flexDirection="row"
+            sx={{ alignItems: "center", margin: { xs: "auto", md: "0" } }}
           >
-            <button
-              style={{
-                backgroundColor: "#0E1734",
-                fontFamily: "Inter",
-                fontSize: "16px",
-                fontWeight: 500,
-                lineHeight: "19px",
-                width: "148px",
-                height: "51px",
-                borderRadius: "4px",
-              }}
-            >
-              <Link
-                to="/contacs"
-                style={{
-                  margin: "32px 13px 0px 0px",
-                  textDecoration: "none",
-                  color: "#FFFFFF",
-                  fontFamily: "Inter",
-                  fontSize: "16px",
-                  fontWeight: 500,
-                }}
-              >
-                Contact us
-              </Link>
-            </button>
-            <Link
-              to="/rooms"
-              style={{
-                margin: "0px 0px 0px 24px",
-                textDecoration: "none",
-                color: "#424F7B",
-                fontFamily: "Inter",
-                fontSize: "18px",
-                lineHeight: "150%",
-              }}
-            >
+            <MainLink to="/contacs">Contact us</MainLink>
+            <CardLink sx={{ marginLeft: "15px" }} to="/rooms">
               Explore more room
-            </Link>
-          </Typography>
-        </Grid>
-        <Grid
+            </CardLink>
+          </Stack>
+        </Stack>
+        <Stack
+          flexDirection="column"
+          rowGap="50px"
           item
-          xs={12}
-          md={6}
           sx={{
-            display: "block",
             filter: "drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07))",
+            width: { xs: "100%", md: "50%" },
           }}
         >
           <Accordion
@@ -146,33 +77,15 @@ const How = () => {
               }
               aria-controls="panel1a-content"
               id="panel1a-header"
-              sx={{ height: "100px" }}
+              // sx={{ height: "100px" }}
             >
-              <Typography
-                sx={{
-                  fontFamily: "Montserrat",
-                  fontWeight: 600,
-                  fontSize: "24px",
-                  lineHeight: "150%",
-                  color: "#424F7B",
-                }}
-              >
-                1. Choose a room and date
-              </Typography>
+              <HowParagraph>1. Choose a room and date</HowParagraph>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography
-                sx={{
-                  fontFamily: "Inter",
-                  fontWeight: 400,
-                  fontSize: "18px",
-                  lineHeight: "150%",
-                  color: "#848FAC",
-                }}
-              >
+              <MainParagraph>
                 Contact us via phone or email, ask for availability of you
                 choice of room. We might offer you something exciting.
-              </Typography>
+              </MainParagraph>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -196,33 +109,15 @@ const How = () => {
               }
               aria-controls="panel2a-content"
               id="panel2a-header"
-              sx={{ height: "100px" }}
+              // sx={{ height: "100px" }}
             >
-              <Typography
-                sx={{
-                  fontFamily: "Montserrat",
-                  fontWeight: 600,
-                  fontSize: "24px",
-                  lineHeight: "150%",
-                  color: "#424F7B",
-                }}
-              >
-                2. Check for room availability
-              </Typography>
+              <HowParagraph>2. Check for room availability</HowParagraph>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography
-                sx={{
-                  fontFamily: "Inter",
-                  fontWeight: 400,
-                  fontSize: "18px",
-                  lineHeight: "150%",
-                  color: "#848FAC",
-                }}
-              >
+              <MainParagraph>
                 Contact us via phone or email, ask for availability of you
                 choice of room. We might offer you something exciting.
-              </Typography>
+              </MainParagraph>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -246,36 +141,18 @@ const How = () => {
               }
               aria-controls="panel2a-content"
               id="panel2a-header"
-              sx={{ height: "100px" }}
+              // sx={{ height: "100px" }}
             >
-              <Typography
-                sx={{
-                  fontFamily: "Montserrat",
-                  fontWeight: 600,
-                  fontSize: "24px",
-                  lineHeight: "150%",
-                  color: "#424F7B",
-                }}
-              >
-                3. Enjoy your room
-              </Typography>
+              <HowParagraph>3. Enjoy your room</HowParagraph>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography
-                sx={{
-                  fontFamily: "Inter",
-                  fontWeight: 400,
-                  fontSize: "18px",
-                  lineHeight: "150%",
-                  color: "#848FAC",
-                }}
-              >
+              <MainParagraph>
                 Contact us via phone or email, ask for availability of you
                 choice of room. We might offer you something exciting.
-              </Typography>
+              </MainParagraph>
             </AccordionDetails>
           </Accordion>
-        </Grid>
+        </Stack>
       </Grid>
     </Container>
   );

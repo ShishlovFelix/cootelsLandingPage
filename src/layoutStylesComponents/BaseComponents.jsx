@@ -12,6 +12,25 @@ export const MainTitle = styled(Typography)`
   color: #192252;
 `;
 
+export const CardTitle = styled(Typography)`
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+`;
+
+export const HowTitle = styled(Typography)`
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+`;
+
 export const MainParagraph = styled(Typography)`
   font-family: "Inter", serif;
   font-style: normal;
@@ -19,6 +38,15 @@ export const MainParagraph = styled(Typography)`
   font-size: 18px;
   line-height: 150%;
   color: #848fac;
+`;
+
+export const HowParagraph = styled(Typography)`
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #424f7b;
 `;
 
 export const MainLink = styled(Link)`
@@ -36,4 +64,14 @@ export const MainLink = styled(Link)`
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+`;
+
+export const CardLink = styled(Link)`
+  text-decoration: none;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424f7b;
 `;

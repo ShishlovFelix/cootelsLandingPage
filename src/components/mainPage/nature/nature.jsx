@@ -11,9 +11,14 @@ import {
 const Nature = () => {
   return (
     <Container maxWidth="lg">
-      <Grid container spacing="32px">
+      <Grid container spacing="32px" marginTop={{ xs: "100px", md: "80px" }}>
         <Grid item xs={12} md={6}>
-          <Stack justifyContent="center" height="100%" gap="32px">
+          <Stack
+            justifyContent="center"
+            height="100%"
+            gap="32px"
+            sx={{ textAlign: { xs: "center", md: "start" } }}
+          >
             <MainTitle variant="h3">
               Nature, Warmth, and Beauty in One Space
             </MainTitle>
