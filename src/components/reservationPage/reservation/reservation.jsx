@@ -1,77 +1,28 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import Typography from "@mui/material/Typography";
-import picture1 from "../../../pictures/naturePicture1.jpg";
-import picture2 from "../../../pictures/naturePicture2.jpg";
-import picture3 from "../../../pictures/naturePicture3.jpg";
+import houseImage from "../../../pictures/house.png";
 import Container from "@mui/material/Container";
+import {
+  MainParagraph,
+  MainTitle,
+} from "../../../layoutStylesComponents/BaseComponents";
 
 const Reservation = () => {
   return (
-    <Container maxWidth="lg" sx={{ display: "block", height: "1176px" }}>
-      <Grid container sx={{ display: "block" }}>
-        <Grid item xs={12} sx={{ display: "block", textAlign: "center" }}>
-          <Typography
-            sx={{
-              marginTop: "168px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "48px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
-            }}
-          >
-            Nature, Warmth, and Beauty in One Space
-          </Typography>
+    <Container maxWidth="lg">
+      <Grid container>
+        <Grid item xs={12} sx={{ textAlign: "center", marginTop: "125px" }}>
+          <MainTitle>Nature, Warmth, and Beauty in One Space</MainTitle>
+        </Grid>
+        <Grid item xs={6} sx={{ margin: "80px auto" }}>
+          <img src={houseImage} alt="noPicture" style={{ width: "100%" }} />
         </Grid>
         <Grid
           item
-          xs={6}
-          sx={{
-            display: "flex",
-            justifyContent: "space-around",
-            margin: "0px 0px 0px 225px",
-          }}
+          xs={12}
+          sx={{ display: "block", textAlign: "center", margin: "40px auto" }}
         >
-          <Grid
-            xs={2}
-            sx={{
-              margin: "80px 24px 0px 0px",
-            }}
-          >
-            <img src={picture1} alt="no picture" />
-          </Grid>
-          <Grid
-            item
-            xs={2}
-            sx={{
-              margin: "161px 24px 0px 0px",
-            }}
-          >
-            <img src={picture2} alt="no picture" />
-          </Grid>
-          <Grid
-            item
-            xs={2}
-            sx={{
-              marginTop: "80px",
-            }}
-          >
-            <img src={picture3} alt="no picture" />
-          </Grid>
-        </Grid>
-        <Grid item xs={12} sx={{ display: "block", textAlign: "center" }}>
-          <Typography
-            sx={{
-              marginTop: "24px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
+          <MainParagraph>
             There is a room for every needs. We have room for individuals until
             family size, we also have a cabin for more private experience Lorem
             ipsum dolor sit amet, consectetur adipisicing elit. Fugit nemo,
@@ -86,7 +37,7 @@ const Reservation = () => {
             ipsam iure laudantium neque non, quis quo saepe voluptatibus?
             Adipisci et, exercitationem inventore minus obcaecati optio
             perferendis porro praesentium!
-          </Typography>
+          </MainParagraph>
         </Grid>
       </Grid>
     </Container>

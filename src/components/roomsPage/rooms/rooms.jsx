@@ -1,44 +1,23 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
-import Typography from "@mui/material/Typography";
+
 import picture1 from "../../../pictures/manyPicture1.jpg";
 import picture2 from "../../../pictures/manyPicture2.jpg";
 import picture3 from "../../../pictures/manyPicture3.jpg";
+import {
+  MainParagraph,
+  MainTitle,
+} from "../../../layoutStylesComponents/BaseComponents";
 
 const Rooms = () => {
   return (
-    <Container maxWidth="lg" sx={{ display: "block" }}>
-      <Grid container sx={{ display: "block" }}>
-        <Grid
-          item
-          xs={12}
-          sx={{ display: "block", textAlign: "center", margin: "auto" }}
-        >
-          <Typography
-            sx={{
-              marginTop: "125px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "48px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
-            }}
-          >
-            Single Room
-          </Typography>
+    <Container maxWidth="lg">
+      <Grid container>
+        <Grid item xs={12} sx={{ textAlign: "center" }}>
+          <MainTitle marginTop="125px">Single Room</MainTitle>
           <img style={{ marginTop: "80px" }} src={picture1} alt="no picture" />
-          <Typography
-            sx={{
-              marginTop: "70px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
+          <MainParagraph marginTop="70px">
             There is a room for every needs. We have room for individuals until
             family size, we also have a cabin for more private experience Lorem
             ipsum dolor sit amet, consectetur adipisicing elit. Alias amet autem
@@ -47,37 +26,12 @@ const Rooms = () => {
             Aspernatur assumenda autem blanditiis ducimus enim exercitationem,
             facilis incidunt laborum magni molestiae odit officia ratione sequi
             soluta sunt totam ullam voluptate voluptatem.
-          </Typography>
+          </MainParagraph>
         </Grid>
-        <Grid
-          item
-          xs={12}
-          sx={{ display: "block", textAlign: "center", margin: "auto" }}
-        >
-          <Typography
-            sx={{
-              marginTop: "125px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "48px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
-            }}
-          >
-            Double Room
-          </Typography>
+        <Grid item xs={12} sx={{ textAlign: "center" }}>
+          <MainTitle marginTop="125px">Double Room</MainTitle>
           <img style={{ marginTop: "80px" }} src={picture2} alt="no picture" />
-          <Typography
-            sx={{
-              marginTop: "70px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
+          <MainParagraph marginTop="70px">
             Best for couple, seek happiness in intimacy without worry of being
             disturbed. Feel the whole world just for you two Lorem ipsum dolor
             sit amet, consectetur adipisicing elit. Alias architecto, atque
@@ -86,37 +40,12 @@ const Rooms = () => {
             eligendi, impedit necessitatibus nemo nostrum quam quibusdam quidem
             repellendus repudiandae. Alias aperiam cum cumque deserunt dolor
             dolores eum inventore neque quasi ut!
-          </Typography>
+          </MainParagraph>
         </Grid>
-        <Grid
-          item
-          xs={12}
-          sx={{ display: "block", textAlign: "center", margin: "auto" }}
-        >
-          <Typography
-            sx={{
-              marginTop: "125px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "48px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
-            }}
-          >
-            Cootage
-          </Typography>
+        <Grid item xs={12} sx={{ textAlign: "center" }}>
+          <MainTitle marginTop="125px">Cootage</MainTitle>
           <img style={{ marginTop: "80px" }} src={picture3} alt="no picture" />
-          <Typography
-            sx={{
-              margin: "70px 0px 100px 0px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
+          <MainParagraph margin="70px auto">
             Best for family or group. One cootage can fit up to 5 people. Made
             stronger bond with your family or friends Lorem ipsum dolor sit
             amet, consectetur adipisicing elit. Culpa in, sequi. Dolor iste
@@ -125,7 +54,7 @@ const Rooms = () => {
             exercitationem explicabo fugiat illo ipsum itaque, magnam non
             pariatur provident quaerat quas quisquam quod rem reprehenderit
             sapiente sed sint sit ullam, voluptatem voluptatum?
-          </Typography>
+          </MainParagraph>
         </Grid>
       </Grid>
     </Container>

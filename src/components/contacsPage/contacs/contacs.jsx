@@ -1,44 +1,18 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
-import Typography from "@mui/material/Typography";
-import picture1 from "../../../pictures/manyPicture1.jpg";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import picture2 from "../../../pictures/manyPicture2.jpg";
-import picture3 from "../../../pictures/manyPicture3.jpg";
+import {
+  MainParagraph,
+  MainTitle,
+} from "../../../layoutStylesComponents/BaseComponents";
 
 const Contacs = () => {
   return (
-    <Container maxWidth="lg" sx={{ display: "block", height: "1176px" }}>
-      <Grid container sx={{ display: "block" }}>
-        <Grid
-          item
-          xs={12}
-          sx={{ display: "block", textAlign: "center", margin: "auto" }}
-        >
-          <Typography
-            sx={{
-              marginTop: "168px",
-              fontFamily: "Montserrat",
-              fontWeight: 600,
-              fontSize: "48px",
-              lineHeight: "150%",
-              letterSpacing: "-0.01em",
-              color: "#192252",
-            }}
-          >
-            Contacs
-          </Typography>
-          <Typography
-            sx={{
-              marginTop: "50px",
-              fontFamily: "Inter",
-              fontWeight: 400,
-              fontSize: "18px",
-              lineHeight: "150%",
-              color: "#848FAC",
-            }}
-          >
+    <Container maxWidth="lg">
+      <Grid container>
+        <Grid item xs={12} sx={{ textAlign: "center" }}>
+          <MainTitle marginTop="125px">Contacs</MainTitle>
+          <MainParagraph marginTop="70px">
             There is a room for every needs. We have room for individuals until
             family size, we also have a cabin for more private experience Lorem
             ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda
@@ -51,7 +25,7 @@ const Contacs = () => {
             veritatis. Accusamus aut debitis dolorem laudantium maiores
             necessitatibus odio quas recusandae reiciendis, repellat repudiandae
             temporibus voluptatem voluptatum!
-          </Typography>
+          </MainParagraph>
         </Grid>
       </Grid>
     </Container>

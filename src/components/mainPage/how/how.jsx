@@ -1,12 +1,10 @@
 import React from "react";
 import { Grid, Stack } from "@mui/material";
-
 import Container from "@mui/material/Container";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
 import {
   CardLink,
   HowParagraph,
@@ -19,7 +17,6 @@ const How = () => {
   return (
     <Container
       maxWidth="lg"
-      // sx={{ display: "flex", justifyContent: "space-between", height: "596px" }}
     >
       <Grid container flexDirection="row" alignItems="center">
         <Stack
