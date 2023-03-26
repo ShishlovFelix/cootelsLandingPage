@@ -19,7 +19,6 @@ const How = () => {
       <Grid container flexDirection="row" alignItems="center">
         <Stack
           flexDirection="column"
-          item
           gap="16px"
           sx={{
             width: { xs: "100%", md: "50%" },
@@ -45,7 +44,6 @@ const How = () => {
         <Stack
           flexDirection="column"
           rowGap="50px"
-          item
           sx={{
             filter: "drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07))",
             width: { xs: "100%", md: "50%" },

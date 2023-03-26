@@ -35,7 +35,7 @@ const Many = () => {
             There is a room for every needs. We have room for individuals until
             family size, we also have a cabin for more private experience
           </MainParagraph>
-          <Stack xs={12} marginTop="32px">
+          <Stack marginTop="32px">
             <MainLink sx={{ margin: "auto" }} href="/rooms">
               Explore more
             </MainLink>
@@ -43,7 +43,6 @@ const Many = () => {
         </Grid>
         <Stack
           flexDirection="row"
-          container
           columnGap="24px"
           sx={{
             marginTop: "88px",

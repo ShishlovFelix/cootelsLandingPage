@@ -13,12 +13,7 @@ const Hear = () => {
         maxWidth="xl"
         sx={{ display: { xs: "none", md: "block" }, height: "627px" }}
       >
-        <Carousel
-          showStatus={false}
-          showThumbs={false}
-          showArrows={true}
-          style={{ backgroundColor: "orange" }}
-        >
+        <Carousel showStatus={false} showThumbs={false} showArrows={true}>
           <div>
             <Typography
               sx={{
