@@ -75,3 +75,33 @@ export const CardLink = styled(Link)`
   line-height: 150%;
   color: #424f7b;
 `;
+
+export const FooterTitle = styled(Typography)`
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+`;
+
+export const FooterParagraph = styled(Typography)`
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+`;
+
+export const FooterLink = styled(Link)`
+  text-decoration: none;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d9dbde;
+`;

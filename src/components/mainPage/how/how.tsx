@@ -15,9 +15,7 @@ import {
 
 const How = () => {
   return (
-    <Container
-      maxWidth="lg"
-    >
+    <Container maxWidth="lg">
       <Grid container flexDirection="row" alignItems="center">
         <Stack
           flexDirection="column"
@@ -74,7 +72,6 @@ const How = () => {
               }
               aria-controls="panel1a-content"
               id="panel1a-header"
-              // sx={{ height: "100px" }}
             >
               <HowParagraph>1. Choose a room and date</HowParagraph>
             </AccordionSummary>
@@ -106,7 +103,6 @@ const How = () => {
               }
               aria-controls="panel2a-content"
               id="panel2a-header"
-              // sx={{ height: "100px" }}
             >
               <HowParagraph>2. Check for room availability</HowParagraph>
             </AccordionSummary>
@@ -138,7 +134,6 @@ const How = () => {
               }
               aria-controls="panel2a-content"
               id="panel2a-header"
-              // sx={{ height: "100px" }}
             >
               <HowParagraph>3. Enjoy your room</HowParagraph>
             </AccordionSummary>

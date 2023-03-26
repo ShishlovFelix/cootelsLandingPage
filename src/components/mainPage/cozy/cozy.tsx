@@ -12,8 +12,8 @@ const Cozy = () => {
   return (
     <Container maxWidth="lg">
       <Grid container spacing="32px" marginTop={{ xs: "100px", md: "160px" }}>
-        <Grid item xs={12} md={6}>
-          <img src={picture} alt="houseImage" style={{ width: "100%" }} />
+        <Grid item xs={12} md={5}>
+          <img src={picture} alt="houseImage" />
         </Grid>
         <Grid item xs={12} md={6}>
           <Stack
@@ -22,7 +22,7 @@ const Cozy = () => {
             gap="32px"
             sx={{ textAlign: { xs: "center", md: "start" } }}
           >
-            <MainTitle variant="h3">
+            <MainTitle>
               Cozy and Down to Earth Cootage Hotel in Norway.
             </MainTitle>
             <MainParagraph variant="body1">

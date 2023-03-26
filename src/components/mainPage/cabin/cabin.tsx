@@ -12,7 +12,7 @@ const Cabin = () => {
   return (
     <Container maxWidth="lg">
       <Grid container spacing="32px" marginTop={{ xs: "100px", md: "80px" }}>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={7}>
           <Stack
             justifyContent="center"
             height="100%"
@@ -27,15 +27,15 @@ const Cabin = () => {
             </MainParagraph>
           </Stack>
         </Grid>
-        <Grid item xs={12} md={6}>
-          <img src={picture1} alt="noImage" style={{ width: "100%" }} />
+        <Grid xs={12} md={5} sx={{ textAlign: "center" }}>
+          <img src={picture1} alt="noImage" />
         </Grid>
       </Grid>
       <Grid container spacing="32px" marginTop={{ xs: "100px", md: "160px" }}>
-        <Grid item xs={12} md={6}>
-          <img src={picture2} alt="houseImage" style={{ width: "100%" }} />
+        <Grid item xs={12} md={5} sx={{ textAlign: "center" }}>
+          <img src={picture2} alt="houseImage" />
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={7}>
           <Stack
             justifyContent="center"
             height="100%"
