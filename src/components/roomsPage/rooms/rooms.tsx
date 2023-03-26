@@ -2,9 +2,9 @@ import React from "react";
 import Container from "@mui/material/Container";
 import { Grid } from "@mui/material";
 
-import picture1 from "../../../pictures/manyPicture1.jpg";
-import picture2 from "../../../pictures/manyPicture2.jpg";
-import picture3 from "../../../pictures/manyPicture3.jpg";
+const picture1 = "/pictures/manyPicture1.jpg";
+const picture2 = "/pictures/manyPicture2.jpg";
+const picture3 = "/pictures/manyPicture3.jpg";
 import {
   MainParagraph,
   MainTitle,

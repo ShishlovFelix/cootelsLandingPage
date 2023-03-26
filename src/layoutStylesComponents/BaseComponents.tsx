@@ -1,6 +1,6 @@
 import { styled } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 export const MainTitle = styled(Typography)`
   font-family: "Montserrat", serif;

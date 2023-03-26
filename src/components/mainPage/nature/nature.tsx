@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Stack } from "@mui/material";
 import Container from "@mui/material/Container";
-import houseImage from "../../../pictures/house.png";
+const houseImage = "/pictures/house.png";
 import {
   MainLink,
   MainParagraph,
@@ -28,7 +28,7 @@ const Nature = () => {
               visit us anytime you want.
             </MainParagraph>
             <Stack sx={{ margin: { xs: "auto", md: "0" } }}>
-              <MainLink to="/reservation">Reservation</MainLink>
+              <MainLink href="/reservation">Reservation</MainLink>
             </Stack>
           </Stack>
         </Grid>

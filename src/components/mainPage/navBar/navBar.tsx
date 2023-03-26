@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 import { Grid } from "@mui/material";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -50,7 +50,7 @@ const NavBar = () => {
                 }}
               >
                 <Link
-                  to="/rooms"
+                  href="/rooms"
                   style={{
                     textDecoration: "none",
                     color: "#192252",
@@ -71,7 +71,7 @@ const NavBar = () => {
                 }}
               >
                 <Link
-                  to="/reservation"
+                  href="/reservation"
                   style={{
                     textDecoration: "none",
                     color: "#192252",
@@ -92,7 +92,7 @@ const NavBar = () => {
                 }}
               >
                 <Link
-                  to="/contacs"
+                  href="/contacs"
                   style={{
                     textDecoration: "none",
                     color: "#192252",

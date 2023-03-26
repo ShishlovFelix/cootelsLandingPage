@@ -26,7 +26,7 @@ const How = () => {
             textAlign: { xs: "center", md: "start" },
           }}
         >
-          <CardLink to="/contacs">Start your journey!</CardLink>
+          <CardLink href="/contacs">Start your journey!</CardLink>
           <HowTitle>How to Get My Room?</HowTitle>
           <MainParagraph>
             You can contact us by phone or email us. Easily tap the contact
@@ -36,8 +36,8 @@ const How = () => {
             flexDirection="row"
             sx={{ alignItems: "center", margin: { xs: "auto", md: "0" } }}
           >
-            <MainLink to="/contacs">Contact us</MainLink>
-            <CardLink sx={{ marginLeft: "15px" }} to="/rooms">
+            <MainLink href="/contacs">Contact us</MainLink>
+            <CardLink sx={{ marginLeft: "15px" }} href="/rooms">
               Explore more room
             </CardLink>
           </Stack>

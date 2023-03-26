@@ -1,12 +1,13 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import { Grid, Stack } from "@mui/material";
-import picture1 from "../../../pictures/cabinPicture1.jpg";
-import picture2 from "../../../pictures/cabinPicture2.jpg";
 import {
   MainParagraph,
   MainTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
+
+const picture1 = "/pictures/cabinPicture1.jpg";
+const picture2 = "/pictures/cabinPicture2.jpg";
 
 const Cabin = () => {
   return (

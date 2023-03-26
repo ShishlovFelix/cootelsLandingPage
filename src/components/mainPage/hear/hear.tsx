@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@mui/material/Container";
 import { Avatar } from "@mui/material";
-import picture from "../../../pictures/hearPicture.svg";
+const picture = "/pictures/hearPicture.svg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Typography from "@mui/material/Typography";

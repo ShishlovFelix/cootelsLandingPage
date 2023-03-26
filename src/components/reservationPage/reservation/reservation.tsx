@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import houseImage from "../../../pictures/house.png";
+const houseImage = "/pictures/house.png";
 import Container from "@mui/material/Container";
 import {
   MainParagraph,

@@ -2,9 +2,9 @@ import React from "react";
 import { Grid, Stack } from "@mui/material";
 import Container from "@mui/material/Container";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import picture1 from "../../../pictures/manyPicture1.jpg";
-import picture2 from "../../../pictures/manyPicture2.jpg";
-import picture3 from "../../../pictures/manyPicture3.jpg";
+const picture1 = "/pictures/manyPicture1.jpg";
+const picture2 = "/pictures/manyPicture2.jpg";
+const picture3 = "/pictures/manyPicture3.jpg";
 import {
   CardLink,
   CardTitle,
@@ -36,7 +36,7 @@ const Many = () => {
             family size, we also have a cabin for more private experience
           </MainParagraph>
           <Stack xs={12} marginTop="32px">
-            <MainLink sx={{ margin: "auto" }} to="/rooms">
+            <MainLink sx={{ margin: "auto" }} href="/rooms">
               Explore more
             </MainLink>
           </Stack>
@@ -60,7 +60,7 @@ const Many = () => {
               time, but you still have a chance to meet others.
             </MainParagraph>
             <Stack flexDirection="row" sx={{ marginTop: "16px" }}>
-              <CardLink to="/rooms">Learn more</CardLink>
+              <CardLink href="/rooms">Learn more</CardLink>
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Stack>
           </Grid>
@@ -72,7 +72,7 @@ const Many = () => {
               disturbed. Feel the whole world just for you two
             </MainParagraph>
             <Stack flexDirection="row" sx={{ marginTop: "16px" }}>
-              <CardLink to="/rooms">Learn more</CardLink>
+              <CardLink href="/rooms">Learn more</CardLink>
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Stack>
           </Grid>
@@ -84,7 +84,7 @@ const Many = () => {
               stronger bond with your family or friends
             </MainParagraph>
             <Stack flexDirection="row" sx={{ marginTop: "16px" }}>
-              <CardLink to="/rooms">Learn more</CardLink>
+              <CardLink href="/rooms">Learn more</CardLink>
               <ArrowForwardIcon sx={{ color: "#424F7B" }} />
             </Stack>
           </Grid>
