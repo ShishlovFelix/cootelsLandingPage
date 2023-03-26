@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Stack } from "@mui/material";
 import Container from "@mui/material/Container";
-const houseImage = "/pictures/house.png";
+import houseImage from "../../../../public/pictures/house.png";
 import {
   MainLink,
   MainParagraph,
