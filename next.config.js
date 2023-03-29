@@ -9,10 +9,10 @@ const nextConfig = {
   // assetPrefix: isProd,
   // ? "https://shishlovfelix.github.io/cootelsLandingPage"
   // : undefined,
-  images: {
-    loader: "custom",
-    loaderFile: "./src/utils/imageLoader.js",
-  },
+  // images: {
+  //   loader: "custom",
+  //   loaderFile: "./src/utils/imageLoader.js",
+  // },
 };
 
 module.exports = nextConfig;

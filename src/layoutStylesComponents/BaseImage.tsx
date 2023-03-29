@@ -21,7 +21,12 @@ export const BoxImageWrapper = styled(Box)`
 export const BaseImage: FC<ImageProps> = (props) => {
   return (
     <BoxImageWrapper>
-      <Image {...props} className={"image"} layout="fill" />
+      <Image
+        {...props}
+        src={`/cootelsLandingPage${props.src}`}
+        className={"image"}
+        layout="fill"
+      />
     </BoxImageWrapper>
   );
 };
