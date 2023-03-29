@@ -1,12 +1,13 @@
 import React from "react";
 import { Grid, Stack } from "@mui/material";
 import Container from "@mui/material/Container";
-import houseImage from "../../../../public/pictures/house.png";
 import {
   MainLink,
   MainParagraph,
   MainTitle,
-} from "../../../layoutStylesComponents/BaseComponents";
+} from "@/src/layoutStylesComponents/BaseComponents";
+import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
+const houseImage = "/pictures/house.png";
 
 const Nature = () => {
   return (
@@ -33,7 +34,7 @@ const Nature = () => {
           </Stack>
         </Grid>
         <Grid item xs={12} md={6}>
-          <img src={houseImage} alt="houseImage" style={{ width: "100%" }} />
+          <BaseImage src={houseImage} alt="houseImage" />
         </Grid>
       </Grid>
     </Container>

@@ -6,6 +6,7 @@ import {
   FooterParagraph,
   FooterTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
+import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
 
 const picture1 = "/pictures/twitter.svg";
 const picture2 = "/pictures/instagram-logo.svg";
@@ -28,9 +29,9 @@ const Footer = () => {
             <FooterLink href="/contacs">Back to Nature.</FooterLink>
           </Stack>
           <Stack flexDirection="row" columnGap="30px" marginTop="50px">
-            <img src={picture1} alt="noPicture" />
-            <img src={picture2} alt="noPicture" />
-            <img src={picture3} alt="noPicture" />
+            <BaseImage src={picture1} alt="noPicture" />
+            <BaseImage src={picture2} alt="noPicture" />
+            <BaseImage src={picture3} alt="noPicture" />
           </Stack>
         </Grid>
         <Grid xs={3} md={2}>

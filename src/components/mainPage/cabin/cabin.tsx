@@ -5,6 +5,7 @@ import {
   MainParagraph,
   MainTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
+import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
 
 const picture1 = "/pictures/cabinPicture1.jpg";
 const picture2 = "/pictures/cabinPicture2.jpg";
@@ -29,12 +30,12 @@ const Cabin = () => {
           </Stack>
         </Grid>
         <Grid xs={12} md={5} sx={{ textAlign: "center" }}>
-          <img src={picture1} alt="noImage" />
+          <BaseImage src={picture1} alt="noImage" />
         </Grid>
       </Grid>
       <Grid container spacing="32px" marginTop={{ xs: "100px", md: "160px" }}>
         <Grid item xs={12} md={5} sx={{ textAlign: "center" }}>
-          <img src={picture2} alt="houseImage" />
+          <BaseImage src={picture2} alt="houseImage" />
         </Grid>
         <Grid item xs={12} md={7}>
           <Stack

@@ -12,6 +12,7 @@ import {
   MainParagraph,
   MainTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
+import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
 
 const Many = () => {
   return (
@@ -52,7 +53,7 @@ const Many = () => {
           }}
         >
           <Grid item xs={4}>
-            <img src={picture1} alt="no picture" />
+            <BaseImage src={picture1} alt="no picture" />
             <CardTitle sx={{ marginTop: "16px" }}>Single Room</CardTitle>
             <MainParagraph sx={{ marginTop: "16px" }}>
               Best for a brave lone wolf who need comfort and quiet quality
@@ -64,7 +65,7 @@ const Many = () => {
             </Stack>
           </Grid>
           <Grid item xs={4}>
-            <img src={picture2} alt="no picture" />
+            <BaseImage src={picture2} alt="no picture" />
             <CardTitle sx={{ marginTop: "16px" }}>Double Room</CardTitle>
             <MainParagraph sx={{ marginTop: "16px" }}>
               Best for couple, seek happiness in intimacy without worry of being
@@ -76,7 +77,7 @@ const Many = () => {
             </Stack>
           </Grid>
           <Grid item xs={4}>
-            <img src={picture3} alt="no picture" />
+            <BaseImage src={picture3} alt="no picture" />
             <CardTitle sx={{ marginTop: "16px" }}>Cootage</CardTitle>
             <MainParagraph sx={{ marginTop: "16px" }}>
               Best for family or group. One cootage can fit up to 5 people. Made

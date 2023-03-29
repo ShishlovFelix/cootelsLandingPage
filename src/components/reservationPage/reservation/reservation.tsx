@@ -6,6 +6,7 @@ import {
   MainParagraph,
   MainTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
+import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
 
 const Reservation = () => {
   return (
@@ -15,7 +16,11 @@ const Reservation = () => {
           <MainTitle>Nature, Warmth, and Beauty in One Space</MainTitle>
         </Grid>
         <Grid item xs={6} sx={{ margin: "80px auto" }}>
-          <img src={houseImage} alt="noPicture" style={{ width: "100%" }} />
+          <BaseImage
+            src={houseImage}
+            alt="noPicture"
+            style={{ width: "100%" }}
+          />
         </Grid>
         <Grid
           item
