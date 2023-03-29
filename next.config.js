@@ -10,14 +10,8 @@ const nextConfig = {
   // ? "https://shishlovfelix.github.io/cootelsLandingPage"
   // : undefined,
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "shishlovfelix.github.io",
-        port: "",
-        pathname: "/cootelsLandingPage/**",
-      },
-    ],
+    loader: "custom",
+    loaderFile: "./src/utils/imageLoader.js",
   },
 };
 
