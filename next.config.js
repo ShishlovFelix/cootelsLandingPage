@@ -14,6 +14,7 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "shishlovfelix.github.io",
+        port: "",
         pathname: "/cootelsLandingPage/**",
       },
     ],
