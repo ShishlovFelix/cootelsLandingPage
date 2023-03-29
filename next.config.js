@@ -9,6 +9,14 @@ const nextConfig = {
   // assetPrefix: isProd,
   // ? "https://shishlovfelix.github.io/cootelsLandingPage"
   // : undefined,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.shishlovfelix.github.io",
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
