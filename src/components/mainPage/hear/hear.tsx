@@ -5,6 +5,7 @@ const picture = "/pictures/hearPicture.svg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Typography from "@mui/material/Typography";
+import { MainAvatar } from "@/src/layoutStylesComponents/MainAvatar";
 
 const Hear = () => {
   return (
@@ -28,7 +29,7 @@ const Hear = () => {
             >
               Hear From Our Happy Customers
             </Typography>
-            <Avatar
+            <MainAvatar
               alt="avatar"
               src={picture}
               sx={{ width: 120, height: 120, margin: "62px auto 0px auto" }}

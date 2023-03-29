@@ -28,7 +28,12 @@ const Footer = () => {
             <FooterLink href="/contacs">Hideway From Crowd.</FooterLink>
             <FooterLink href="/contacs">Back to Nature.</FooterLink>
           </Stack>
-          <Stack flexDirection="row" columnGap="30px" marginTop="50px">
+          <Stack
+            flexDirection="row"
+            columnGap="30px"
+            marginTop="50px"
+            width="200px"
+          >
             <BaseImage src={picture1} alt="noPicture" />
             <BaseImage src={picture2} alt="noPicture" />
             <BaseImage src={picture3} alt="noPicture" />

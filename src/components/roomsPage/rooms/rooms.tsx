@@ -17,11 +17,13 @@ const Rooms = () => {
       <Grid container>
         <Grid item xs={12} sx={{ textAlign: "center" }}>
           <MainTitle marginTop="125px">Single Room</MainTitle>
-          <BaseImage
-            style={{ marginTop: "80px" }}
-            src={picture1}
-            alt="no picture"
-          />
+          <Grid item xs={6} sx={{ margin: "80px auto" }}>
+            <BaseImage
+              src={picture1}
+              alt="noPicture"
+              style={{ width: "100%" }}
+            />
+          </Grid>
           <MainParagraph marginTop="70px">
             There is a room for every needs. We have room for individuals until
             family size, we also have a cabin for more private experience Lorem
@@ -35,11 +37,13 @@ const Rooms = () => {
         </Grid>
         <Grid item xs={12} sx={{ textAlign: "center" }}>
           <MainTitle marginTop="125px">Double Room</MainTitle>
-          <BaseImage
-            style={{ marginTop: "80px" }}
-            src={picture2}
-            alt="no picture"
-          />
+          <Grid item xs={6} sx={{ margin: "80px auto" }}>
+            <BaseImage
+              src={picture2}
+              alt="noPicture"
+              style={{ width: "100%" }}
+            />
+          </Grid>
           <MainParagraph marginTop="70px">
             Best for couple, seek happiness in intimacy without worry of being
             disturbed. Feel the whole world just for you two Lorem ipsum dolor
@@ -53,11 +57,13 @@ const Rooms = () => {
         </Grid>
         <Grid item xs={12} sx={{ textAlign: "center" }}>
           <MainTitle marginTop="125px">Cootage</MainTitle>
-          <BaseImage
-            style={{ marginTop: "80px" }}
-            src={picture3}
-            alt="no picture"
-          />
+          <Grid item xs={6} sx={{ margin: "80px auto" }}>
+            <BaseImage
+              src={picture3}
+              alt="noPicture"
+              style={{ width: "100%" }}
+            />
+          </Grid>
           <MainParagraph margin="70px auto">
             Best for family or group. One cootage can fit up to 5 people. Made
             stronger bond with your family or friends Lorem ipsum dolor sit

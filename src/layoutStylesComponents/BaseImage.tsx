@@ -18,9 +18,13 @@ export const BoxImageWrapper = styled(Box)`
   }
 `;
 
-export const BaseImage: FC<ImageProps> = (props) => {
+interface IOwnProps {
+  boxWidth?: string;
+}
+
+export const BaseImage: FC<ImageProps & IOwnProps> = (props) => {
   return (
-    <BoxImageWrapper>
+    <BoxImageWrapper sx={props.boxWidth ? { width: props.boxWidth } : {}}>
       <Image
         {...props}
         src={`/cootelsLandingPage${props.src}`}
