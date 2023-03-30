@@ -16,7 +16,12 @@ import {
 const How = () => {
   return (
     <Container maxWidth="lg">
-      <Grid container flexDirection="row" alignItems="center">
+      <Grid
+        container
+        flexDirection="row"
+        alignItems="center"
+        sx={{ marginTop: { xs: "300px", md: "auto" } }}
+      >
         <Stack
           flexDirection="column"
           gap="16px"
@@ -43,7 +48,7 @@ const How = () => {
         </Stack>
         <Stack
           flexDirection="column"
-          rowGap="50px"
+          rowGap="10px"
           sx={{
             filter: "drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07))",
             width: { xs: "100%", md: "50%" },
@@ -70,6 +75,7 @@ const How = () => {
               }
               aria-controls="panel1a-content"
               id="panel1a-header"
+              sx={{ height: "100px" }}
             >
               <HowParagraph>1. Choose a room and date</HowParagraph>
             </AccordionSummary>
@@ -101,6 +107,7 @@ const How = () => {
               }
               aria-controls="panel2a-content"
               id="panel2a-header"
+              sx={{ height: "100px" }}
             >
               <HowParagraph>2. Check for room availability</HowParagraph>
             </AccordionSummary>
@@ -130,6 +137,7 @@ const How = () => {
                   }}
                 />
               }
+              sx={{ height: "100px" }}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >

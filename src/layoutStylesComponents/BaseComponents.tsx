@@ -2,6 +2,43 @@ import { styled } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 
+export const NavbarTitle = styled(Link)`
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  color: #192252;
+  text-decoration: none;
+`;
+
+export const NavbarParagraph = styled(Link)`
+  text-decoration: none;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #192252;
+`;
+
+export const NavbarLink = styled(Link)`
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 121px;
+  height: 47px;
+  background: #0e1734;
+  border-radius: 4px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+`;
+
 export const MainTitle = styled(Typography)`
   font-family: "Montserrat", serif;
   font-style: normal;
@@ -74,6 +111,15 @@ export const CardLink = styled(Link)`
   font-size: 18px;
   line-height: 150%;
   color: #424f7b;
+`;
+
+export const HearParagraph = styled(Typography)`
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #192252;
 `;
 
 export const FooterTitle = styled(Typography)`

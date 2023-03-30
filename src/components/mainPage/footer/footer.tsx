@@ -6,7 +6,7 @@ import {
   FooterParagraph,
   FooterTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
-import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
+import { BaseImage } from "../../../layoutStylesComponents/BaseImage";
 
 const picture1 = "/pictures/twitter.svg";
 const picture2 = "/pictures/instagram-logo.svg";
@@ -21,7 +21,7 @@ const Footer = () => {
       }}
     >
       <Grid container padding="120px 0">
-        <Grid item xs={3} md={6}>
+        <Grid item xs={6} md={6}>
           <Stack gap="20px">
             <FooterTitle>Cooltes</FooterTitle>
             <FooterLink href="/contacs">Your Best Private </FooterLink>
@@ -39,7 +39,7 @@ const Footer = () => {
             <BaseImage src={picture3} alt="noPicture" />
           </Stack>
         </Grid>
-        <Grid xs={3} md={2}>
+        <Grid xs={6} md={2}>
           <Stack gap="25px">
             <FooterParagraph>Rooms</FooterParagraph>
             <FooterLink href="/contacs">Single Room</FooterLink>
@@ -48,7 +48,7 @@ const Footer = () => {
             <FooterLink href="/contacs">Custom Room</FooterLink>
           </Stack>
         </Grid>
-        <Grid xs={3} md={2}>
+        <Grid xs={6} md={2}>
           <Stack gap="25px">
             <FooterParagraph>Rooms</FooterParagraph>
             <FooterLink href="/contacs">Reservation</FooterLink>
@@ -56,7 +56,7 @@ const Footer = () => {
             <FooterLink href="/contacs">Best Time</FooterLink>
           </Stack>
         </Grid>
-        <Grid xs={3} md={2}>
+        <Grid xs={6} md={2}>
           <Stack gap="25px">
             <FooterParagraph>Contact</FooterParagraph>
             <FooterLink href="/contacs">Our Number</FooterLink>

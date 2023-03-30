@@ -5,7 +5,7 @@ import {
   MainParagraph,
   MainTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
-import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
+import { BaseImage } from "../../../layoutStylesComponents/BaseImage";
 
 const picture1 = "/pictures/cabinPicture1.jpg";
 const picture2 = "/pictures/cabinPicture2.jpg";
@@ -19,7 +19,10 @@ const Cabin = () => {
             justifyContent="center"
             height="100%"
             gap="32px"
-            sx={{ textAlign: { xs: "center", md: "start" } }}
+            sx={{
+              textAlign: { xs: "center", md: "start" },
+              paddingRight: "10px",
+            }}
           >
             <MainTitle variant="h3">Cabin Activities</MainTitle>
             <MainParagraph variant="body1">
@@ -42,7 +45,10 @@ const Cabin = () => {
             justifyContent="center"
             height="100%"
             gap="32px"
-            sx={{ textAlign: { xs: "center", md: "start" } }}
+            sx={{
+              textAlign: { xs: "center", md: "start" },
+              paddingLeft: "10px",
+            }}
           >
             <MainTitle variant="h3">100% Organic Food</MainTitle>
             <MainParagraph variant="body1">

@@ -7,12 +7,17 @@ import {
   MainParagraph,
   MainTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
-import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
+import { BaseImage } from "../../../layoutStylesComponents/BaseImage";
 
 const Cozy = () => {
   return (
     <Container maxWidth="lg">
-      <Grid container spacing="32px" marginTop={{ xs: "100px", md: "160px" }}>
+      <Grid
+        container
+        spacing="32px"
+        columnGap="30px"
+        marginTop={{ xs: "100px", md: "160px" }}
+      >
         <Grid item xs={12} md={5}>
           <BaseImage src={picture} alt="houseImage" />
         </Grid>

@@ -5,8 +5,8 @@ import {
   MainLink,
   MainParagraph,
   MainTitle,
-} from "@/src/layoutStylesComponents/BaseComponents";
-import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
+} from "../../../layoutStylesComponents/BaseComponents";
+import { BaseImage } from "../../../layoutStylesComponents/BaseImage";
 const houseImage = "/pictures/house.png";
 
 const Nature = () => {

@@ -9,7 +9,7 @@ import {
   MainParagraph,
   MainTitle,
 } from "../../../layoutStylesComponents/BaseComponents";
-import { BaseImage } from "@/src/layoutStylesComponents/BaseImage";
+import { BaseImage } from "../../../layoutStylesComponents/BaseImage";
 
 const Rooms = () => {
   return (
