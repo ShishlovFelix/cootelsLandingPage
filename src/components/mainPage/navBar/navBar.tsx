@@ -76,12 +76,12 @@ const NavBar = () => {
                 <NavbarParagraph href="/rooms">Rooms</NavbarParagraph>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <NavbarParagraph href="/reservation" textAlign="center">
+                <NavbarParagraph href="/reservation" >
                   Reservation
                 </NavbarParagraph>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <NavbarParagraph href="/contacs" textAlign="center">
+                <NavbarParagraph href="/contacs" >
                   Contacs
                 </NavbarParagraph>
               </MenuItem>
