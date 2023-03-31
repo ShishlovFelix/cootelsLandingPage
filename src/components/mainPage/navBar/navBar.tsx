@@ -76,14 +76,12 @@ const NavBar = () => {
                 <NavbarParagraph href="/rooms">Rooms</NavbarParagraph>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <NavbarParagraph href="/reservation" >
+                <NavbarParagraph href="/reservation">
                   Reservation
                 </NavbarParagraph>
               </MenuItem>
               <MenuItem onClick={handleCloseNavMenu}>
-                <NavbarParagraph href="/contacs" >
-                  Contacs
-                </NavbarParagraph>
+                <NavbarParagraph href="/contacs">Contacs</NavbarParagraph>
               </MenuItem>
             </Menu>
           </Box>
@@ -97,12 +95,8 @@ const NavBar = () => {
             }}
           >
             <NavbarParagraph href="/rooms">Rooms</NavbarParagraph>
-            <NavbarParagraph href="/reservation" textAlign="center">
-              Reservation
-            </NavbarParagraph>
-            <NavbarParagraph href="/contacs" textAlign="center">
-              Contacs
-            </NavbarParagraph>
+            <NavbarParagraph href="/reservation">Reservation</NavbarParagraph>
+            <NavbarParagraph href="/contacs">Contacs</NavbarParagraph>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
